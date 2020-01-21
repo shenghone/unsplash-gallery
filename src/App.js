@@ -24,7 +24,7 @@ function App() {
   const LOAD_DATA = useCallback(() => dispatch({ type: DATA.LOAD }), [
     dispatch
   ]);
-
+  console.log(process.env.REACT_APP_ACCESS_KEY);
   useEffect(() => {
     LOAD_DATA();
   }, [LOAD_DATA]);

@@ -199,7 +199,6 @@ const Description = React.memo(function({ defaultCover, ...rest }) {
 
   const [coverPicture, setCoverPicture] = React.useState(null);
   useEffect(() => {
-    console.log(location.pathname);
     if (location.pathname === "/about") {
       gsap.set(aboutRef.current, {
         opacity: 0,
