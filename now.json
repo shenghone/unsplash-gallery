@@ -1,5 +1,10 @@
 {
   "env": {
     "REACT_APP_ACCESS_KEY": "@access-key"
+  },
+  "build": {
+    "env": {
+      "REACT_APP_ACCESS_KEY": "@access-key"
+    }
   }
 }
